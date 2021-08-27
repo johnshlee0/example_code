@@ -5,21 +5,18 @@ dragElement(talkModal);
 
 function dragElement (elmnt) {
     var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-    if (document.getElementById(elmnt.id + "Header")) {
-        // if present, the header is where you move the DIV from:
-        document.getElementById(elmnt.id + "Header").onmousedown = dragMouseDown;
-        document.getElementById(elmnt.id + "Drag1").onmousedown = dragMouseDown;
-        document.getElementById(elmnt.id + "Drag2").onmousedown = dragMouseDown;
-        document.getElementById(elmnt.id + "Drag3").onmousedown = dragMouseDown;
-        if (elmnt === talkModal) {
-            document.getElementById(elmnt.id + "Drag4").onmousedown = dragMouseDown;
-            document.getElementById(elmnt.id + "Drag5").onmousedown = dragMouseDown;
-            document.getElementById(elmnt.id + "Drag6").onmousedown = dragMouseDown;
-            document.getElementById(elmnt.id + "Drag7").onmousedown = dragMouseDown;
-        };
-    } else {
-        // otherwise, move the DIV from anywhere inside the DIV:
-        elmnt.onmousedown = dragMouseDown;
+    function getDraggableSection (id) {
+        document.getElementById(elmnt.id + id).onmousedown = dragMouseDown;
+    };
+    getDraggableSection("Header");
+    getDraggableSection("Drag1");
+    getDraggableSection("Drag2");
+    getDraggableSection("Drag3");
+    if (elmnt === talkModal) {
+        getDraggableSection("Drag4");
+        getDraggableSection("Drag5");
+        getDraggableSection("Drag6");
+        getDraggableSection("Drag7");
     };
 
     function dragMouseDown (e) {
