@@ -1,12 +1,12 @@
 This repository contains two example codes for the website talkandprogress.com, \
 **scroll-pagination** and **mousedown-drag**.
 
-## In the **scroll-pagination** example code:
+##### In the **scroll-pagination** example code:
 
--- ABSTRACT -- \  
+-- ABSTRACT --  
 I had to take into account two different main scenarios. When the user lands on the website, they are initially given the question-modal-window. If they don't want to immediately answer the question, but want to see previously submitted answers by other users, they can either close all modal windows or click the answer-counter-button in top-right.
 
--- CHALLENGE -- \  
+-- CHALLENGE --  
 Hence the two main scenarios are:
 
 > Scenario #1:  
@@ -14,7 +14,7 @@ Hence the two main scenarios are:
 >  => The user is taken to the answer-collection-page.  
 >  => With their newly submitted answer, 9 other previously submitted answers show, totalling 10 answers.  
 >  => When they scroll to the bottom of the page, 10 more previously submitted answers show.
->
+
 > Scenario #2:  
 >  => The user decides not to submit the answer.  
 >  => The user closes the modal window or clicks the answer-counter-button.  
@@ -40,7 +40,7 @@ In JS,
 
 > _getTenData()_ is responsible for the GET request of 10 answers to be appended. The $offsetCount is used to query the correct data depending whether or not some other answers have already appended to the answer-collection-page.
 
-## In the **mousedown-drag** example code:
+##### In the **mousedown-drag** example code:
 
 -- ABSTRACT --  
 The modal-windows had to be draggable by clicking any "empty spaces".
