@@ -7,11 +7,12 @@ I had to take into account two different main scenarios. When the user lands on 
 
 -- CHALLENGE --
 Hence the two main scenarios are:
-Scenario #1:
-=> The user submits an answer.
-=> The user is taken to the answer-collection-page.
-=> With their newly submitted answer, 9 other previously submitted answers show, totalling 10 answers.
-=> When they scroll to the bottom of the page, 10 more previously submitted answers show.
+
+    Scenario #1:
+        => The user submits an answer.
+        => The user is taken to the answer-collection-page.
+        => With their newly submitted answer, 9 other previously submitted answers show, totalling 10 answers.
+        => When they scroll to the bottom of the page, 10 more previously submitted answers show.
 
     Scenario #2:
         => The user decides not to submit the answer.
