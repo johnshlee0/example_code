@@ -1,0 +1,70 @@
+.talkModalGrid {
+  display: grid;
+  grid-template-columns: 5% minmax(min-content, 1fr) 5%;
+  grid-template-rows: minmax(min-content, max-content) 10px minmax(
+      min-content,
+      100%
+    );
+  grid-template-areas:
+    "col-l question col-r"
+    "col-l q-a-gap col-r"
+    "col-l answer col-r";
+  width: 100%;
+  height: 85%;
+  overflow-y: auto;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: minmax(min-content, 1fr);
+  grid-template-rows: minmax(min-content, max-content) minmax(0, 1fr) 12px minmax(
+      0,
+      max-content
+    ) 10%;
+  grid-template-areas:
+    "write"
+    "bottom-a"
+    "gap-a-btn"
+    "cnt-btn"
+    "bot";
+  width: 100%;
+  height: 100%;
+  justify-items: center;
+}
+
+#talkModalDrag1 {
+  grid-area: col-l;
+  width: 100%;
+  height: 100%;
+  cursor: move;
+}
+#talkModalDrag2 {
+  grid-area: col-r;
+  width: 100%;
+  height: 100%;
+  cursor: move;
+}
+#talkModalDrag3 {
+  grid-area: q-a-gap;
+  width: 100%;
+  height: 100%;
+  cursor: move;
+}
+#talkModalDrag4 {
+  grid-area: bottom-a;
+  width: 100%;
+  height: 100%;
+  cursor: move;
+}
+#talkModalDrag5 {
+  grid-area: gap-a-btn;
+  width: 100%;
+  height: 100%;
+  cursor: move;
+}
+#talkModalDrag6 {
+  grid-area: bot;
+  width: 100%;
+  height: 100%;
+  cursor: move;
+}
