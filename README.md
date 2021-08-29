@@ -50,4 +50,4 @@ I found a sample code for the function of mousedown-drag. However, I couldn't fi
 
 -- SOLUTION --  
 Rather than using CSS Flexbox, I used CSS Grid.  
-And rather than using the "." for the placeholder for an empty grid, I used html <div> tags with id, so I can apply DOM.
+And rather than using the "." for the placeholder for an empty grid, I used html div tags with id, so I can apply DOM.
