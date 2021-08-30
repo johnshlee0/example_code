@@ -50,4 +50,18 @@ I found a sample code for the function of mousedown-drag. However, I couldn't fi
 
 -- SOLUTION --  
 Rather than using CSS Flexbox, I used CSS Grid.  
-And rather than using the "." for the placeholder for an empty grid, I used html div tags with id, so I can apply DOM.
+And rather than using the "." for the placeholder for an empty grid, I used html div tags with id, so I can apply DOM.  
+  
+### In the **ImageSlide&Hash** example code:  
+  
+-- ABSTRACT --  
+In a one-page website, users must be able to land on a specific page with a provided link, rather than always scrolling down from the top each time they visit.  
+Also an image-slider was implemented for each page(Post component).
+
+-- CHALLENGE --  
+Creating div with unique id for anchor tag to refer to.
+Fetch all images in an array, but only make one visible at a time by indexing it.
+
+-- SOLUTION --  
+To make unique div id, I fetched the "title" data and using split() and join() methods, put them together in one string.
+To make an image-slider, I used state.prop for indexing and ternary operator for css display property.
