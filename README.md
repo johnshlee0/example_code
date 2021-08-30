@@ -63,5 +63,5 @@ Creating div with unique id for anchor tag to refer to.
 Fetch all images in an array, but only make one visible at a time by indexing it.
 
 -- SOLUTION --  
-To make unique div id, I fetched the "title" data and using split() and join() methods, put them together in one string.
+To make unique div id, I fetched the "title" data and using split() and join() methods, put them together in one string.  
 To make an image-slider, I used state.prop for indexing and ternary operator for css display property.
