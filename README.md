@@ -59,7 +59,7 @@ In a one-page website, users must be able to land on a specific page with a prov
 Also an image-slider was implemented for each page(Post component).
 
 -- CHALLENGE --  
-Creating div with unique id for anchor tag to refer to.
+Creating div with unique id for anchor tag to refer to.  
 Fetch all images in an array, but only make one visible at a time by indexing it.
 
 -- SOLUTION --  
