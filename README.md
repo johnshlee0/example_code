@@ -1,5 +1,7 @@
-This repository contains two example codes for the website talkandprogress.com, \
-**scroll-pagination** and **mousedown-drag**.
+This repository contains two example codes for the website talkandprogress.com,  
+**scroll-pagination** and **mousedown-drag**,  
+and one example code for the website https://johnshlee.netlify.app,  
+**ImageSlider&Hash**.  
 
 ### In the **scroll-pagination** example code:
 
