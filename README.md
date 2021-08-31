@@ -57,7 +57,7 @@ And rather than using the "." for the placeholder for an empty grid, I used html
 ### In the **ImageSlide&Hash** example code:  
   
 -- ABSTRACT --  
-In a one-page website, users must be able to land on a specific page with a provided link, rather than always scrolling down from the top each time they visit.  
+In a single-page website, users must be able to land on a specific page with a provided link, rather than always scrolling down from the top each time they visit.  
 Also an image-slider was implemented for each page(Post component).
 
 -- CHALLENGE --  
