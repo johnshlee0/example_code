@@ -62,8 +62,8 @@ Also an image-slider was implemented for each page(Post component).
 
 -- CHALLENGE --  
 The Website includes CMS for the client. So when the client adds a new page(Post component) with CMS, a unique id or hash must be created for that page.  
-For Hash URL, creating div with unique id for anchor tag to refer to.  
-Fetch all images in an array, but only make one visible at a time by indexing it.
+For Hash URL, I had to create div with unique id for anchor tag to refer to.  
+For the image-slider, I had to fetch all images in an array, but only make one visible at a time by indexing it.
 
 -- SOLUTION --  
 To make unique div id, I fetched the "title" data and using split() and join() methods, put them together in one string.  
