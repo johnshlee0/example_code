@@ -57,11 +57,12 @@ And rather than using the "." for the placeholder for an empty grid, I used html
 ### In the **ImageSlide&Hash** example code:  
   
 -- ABSTRACT --  
-In a single-page website, users must be able to land on a specific page with a provided link, rather than always scrolling down from the top each time they visit.  
+In a single-page website, users must be able to land on a specific page with a provided URL, rather than always scrolling down from the top each time they visit.  
 Also an image-slider was implemented for each page(Post component).
 
 -- CHALLENGE --  
-Creating div with unique id for anchor tag to refer to.  
+The Website includes CMS for the client. So when the client adds a new page(Post component) with CMS, a unique id or hash must be created for that page.  
+For Hash URL, creating div with unique id for anchor tag to refer to.  
 Fetch all images in an array, but only make one visible at a time by indexing it.
 
 -- SOLUTION --  
